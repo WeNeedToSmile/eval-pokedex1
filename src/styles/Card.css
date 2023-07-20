@@ -1,0 +1,57 @@
+.card-global {
+
+    height: 400px;
+    width: 300px;
+    background-color: #464f56;
+    border-radius: 15px;
+    padding-top:10px;
+    
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    
+    justify-content: center;
+      
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  
+    background-color: rgb(70, 79, 88);
+}
+
+.card-id,.card-type,.card-img,.card-name {
+    background-color: rgb(27, 32, 36);
+
+    border-radius: 5px;
+    height: 20px;
+    width: 90%;
+}
+
+.card-id {
+    margin-bottom:10px;
+}
+
+.card-type {
+    margin-bottom: 20px;
+}
+
+.card-img {
+    height: 100%;
+    width: 90%;
+    
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+  
+.card-name{
+    height: 45px;
+    margin-bottom: 5px;
+  }
+
+p {
+    all:unset;
+    color: white;
+
+    margin-left: 10px;
+}
