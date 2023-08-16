@@ -1,22 +1,26 @@
 import '../styles/Card.css';
 
-function Card (card1, card2, card3, card4) {
+function Card ({card_id, card_type, card_img, card_name}) {
+ 
 
-    return (<div className="card-global">
+    return (
+    <div className="card-global">
         
         <div className="card-id">
-            <p> </p>
+            <img src="https://www.drupal.org/files/project-images/Pokeball.png" alt="pokeball"></img>
+            <p>{card_id} </p>
         </div>
         <div className="card-type">
-           <p> electric</p>
+        <img src="https://www.drupal.org/files/project-images/Pokeball.png" alt="pokeball"></img>
+           <p> {card_type}</p>
         </div>
 
         <div className="card-img">
-            
+            <img src={card_img} alt={card_name} />
         </div>
 
         <div className="card-name">
-            <p> PIKACHU</p>
+            <p> {card_name}</p>
         </div>
         
     </div>

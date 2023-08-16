@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import "../styles/Button.css";
 import Card from "./Card";
 
-function ShowCard() {
-  const [inputValue, setInputValue] = useState("");
+function ButtonDo() {
   const [components, setComponents] = useState([]);
 
   const WhenClick = () => {
@@ -30,11 +29,6 @@ function ShowCard() {
 
   return (
     <div>
-      <input
-        type="text"
-        onChange={(event) => setInputValue(event.target.value)}
-      ></input>
-
       <button onClick={WhenClick}>Search</button>
 
       <div className="contain-card">
@@ -50,4 +44,4 @@ function ShowCard() {
   );
 }
 
-export default ShowCard;
+export default ButtonDo;
