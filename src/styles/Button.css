@@ -1,5 +1,0 @@
-.contain-card {
-    display: grid;
-    grid-template-columns: repeat(4, [col-start] fit-content(500px) [col-end]);
-    justify-content: center;
-}
